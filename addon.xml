@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.aminflix"
+       name="AMINFLIX Repository"
+       version="1.0.0"
+       provider-name="Amini">
+  <extension point="xbmc.addon.repository"
+             name="AMINFLIX Repository">
+    <info compressed="false">https://dowcode.github.io/aminflix-repo/addons.xml</info>
+    <checksum>https://dowcode.github.io/aminflix-repo/addons.xml.md5</checksum>
+    <datadir zip="true">https://dowcode.github.io/aminflix-repo/</datadir>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>AMINFLIX Kodi Addon Repository</summary>
+    <description>Auto-update repository for AMINFLIX addon</description>
+    <platform>all</platform>
+  </extension>
+</addon>
