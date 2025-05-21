@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.aminflix"
+       name="AMINFLIX"
+       version="1.0.0"
+       provider-name="Amini">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py" />
+  <extension point="xbmc.addon.metadata">
+    <summary>Netflix-style Kodi Addon</summary>
+    <description>AMINFLIX includes movies, TV, live sports with Real-Debrid and scraper support.</description>
+    <platform>all</platform>
+    <icon>resources/media/football.png</icon>
+    <fanart>resources/media/sports_events.png</fanart>
+  </extension>
+</addon>
